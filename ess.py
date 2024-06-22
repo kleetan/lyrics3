@@ -4,7 +4,7 @@ import re
 import random
 
 # Fetch Genius API access token from Streamlit secrets
-GENIUS_ACCESS_TOKEN = st.secrets["GENIUS_ACCESS_TOKEN"]
+GENIUS_ACCESS_TOKEN = st.secrets["XcKA1by5sazpyvy7PG0gzWUfhfFqdC9GqnIkQKd8tblUA8jKHmrvxu3KrIjBUO2f"]
 
 # Pre-defined set of words to exclude
 pre_excluded_words = {
