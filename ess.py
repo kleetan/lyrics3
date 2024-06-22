@@ -3,7 +3,7 @@ import lyricsgenius
 import re
 import random
 
-# Fetch Genius API access token from Streamlit secrets
+# Genius API access token from Streamlit secrets
 GENIUS_ACCESS_TOKEN = st.secrets["GENIUS_ACCESS_TOKEN"]
 
 # Pre-defined set of words to exclude
@@ -12,7 +12,8 @@ pre_excluded_words = {
     "my", "your", "his", "our", "them", "their", "a", "g", "do", "don't", 
     "don", "t", "in", "on", "at", "by", "for", "with", "about", "against", 
     "between", "into", "through", "during", "before", "after", "above", 
-    "below", "to", "from", "up", "down", "in", "out", "over", "under", "again", "further", "then", "once"
+    "below", "to", "from", "up", "down", "in", "out", "over", "under", 
+    "again", "further", "then", "once"
 }
 
 def fetch_lyrics(artist_name, song_name, additional_excluded_words, deleting_excluded_words, num_words_to_replace):
