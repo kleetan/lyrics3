@@ -1,5 +1,5 @@
 # secrets.toml
 
 [env]
-GENIUS_ACCESS_TOKEN = "X0-OFE111JThuRd6cU5n1uQJkTQJA4gcyrwTdwh-Obxf6LjQQejE3kbFRt048sec"
+YOUR_ACCESS_TOKEN = "X0-OFE111JThuRd6cU5n1uQJkTQJA4gcyrwTdwh-Obxf6LjQQejE3kbFRt048sec"
 
